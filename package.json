@@ -1,12 +1,12 @@
 {
-  "name": "eleventy-excellent",
-  "version": "4.5.0",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "name": "pluralize",
+  "version": "1.0.0",
+  "description": "List of nouns and whether they should be pluralized.",
+  "author": "Mike Mathew",
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": ">=20.x.x"
+    "node": ">=24.x.x"
   },
   "scripts": {
     "clean": "rimraf dist src/_includes/css src/_includes/scripts",
