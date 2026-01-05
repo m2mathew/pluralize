@@ -2,7 +2,7 @@
 layout: base
 permalink: /index.html
 title: 'Pluralize'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+description: 'Check if a noun is singular or plural.'
 ---
 
 <div class="wrapper">
@@ -13,21 +13,8 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
     {% svg "divider/waves", null, "divider" %}
   </header>
 
-  <article class="full | region">
-    <div class="prose wrapper flow">
-      <h2 id="an-eleventy-starter">An Eleventy starter</h2>
-      <p>
-        A while ago a friend pointed out to me that people often misuse &quot;There is" and "There are" often in English conversation. Then I started hearing it all of the time. Sometimes I find myself thinking, "Is that singular or plural?" This project is a quick look-up to help see if a noun is singular or plural.
-      </p>
-    </div>
-  </article>
-
   <section class="full | region">
     <div class="prose wrapper flow">
-      <h2>{{ blog.title }}</h2>
-      {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
-      {% endif %}
       <div class="feature |  region region-space-l">
         <custom-masonry layout="50-50">
           Hey friend
@@ -35,4 +22,13 @@ description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flex
       </div>
     </div>
   </section>
+
+  <article class="full | region">
+    <div class="prose wrapper flow">
+      <h2 id="is-it-plural">Is It Plural?</h2>
+      <p>
+        A while ago a friend pointed out to me that people often misuse "There is" and "There are" often in English conversation. Then I started hearing it all of the time. Sometimes I find myself thinking, "Is that singular or plural?" This project is a quick look-up to help see if a noun is singular or plural.
+      </p>
+    </div>
+  </article>
 </div>
