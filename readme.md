@@ -2,6 +2,7 @@
 
 Do you ever hear a noun in English and think to yourself, "Is that singular or plural?" Me, too! This project provides a quick look-up to help see if a noun is singular or plural.
 
+[https://pluralize.mikemathew.me/](https://pluralize.mikemathew.me/)
 
 ## Development
 
